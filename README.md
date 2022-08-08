@@ -14,10 +14,11 @@
 - Chrome 等のブラウザ
 
 1. リポジトリをクローンします
+   ターミナルで以下のコマンドを実行します。
 
-```shell
-$ git clone https://github.com/Taipoon/cpp2-l96-judgeAI.git
-```
+   ```shell
+   $ git clone https://github.com/Taipoon/cpp2-l96-judgeAI.git
+   ```
 
 2. Slack API のエンドポイント URL を作成します
    こちらの記事を参考にして Webhook の URL を取得してください。
@@ -26,14 +27,14 @@ $ git clone https://github.com/Taipoon/cpp2-l96-judgeAI.git
 
 3. Slack Webhook URL を設定します
 
-index.html の 76 行目あたりにある以下のコードを探し、
+   index.html の 76 行目あたりにある以下のコードを探します。
 
-```javascript
-// Slack Webhook URL
-const SLACK_URL = "YOUR SLACK URL HERE";
-```
+   ```javascript
+   // Slack Webhook URL
+   const SLACK_URL = "YOUR SLACK URL HERE";
+   ```
 
-`YOUR SLACK URL HERE`の部分に[2]で取得した Slack Webhook URL を入力します。
+   `YOUR SLACK URL HERE`の部分に[ 2. ]で取得した Slack Webhook URL を入力します。
 
-3. index.html をブラウザで開きます
+4. index.html をブラウザで開きます
    ブラウザにカメラまたはマイクの使用権限を許可します。
